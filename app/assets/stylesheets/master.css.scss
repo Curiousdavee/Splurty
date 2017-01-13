@@ -10,7 +10,7 @@
     font-style: italic;
     position: relative;
     border-radius: 100%;
-    background: #f84342;
+    background: linear-gradient( 120deg, #FBE761, #96E5CB, #1CE3F7 );
     border: 1px solid #F7F7F7;
     width: 80px;
     height: 80px;
@@ -92,6 +92,10 @@ h2 span {
 
 ::selection {
   background-color: #f84342;
+}
+
+.space-top {
+  margin-top: 30px;
 }
 
 @media (max-width: 750px) {
