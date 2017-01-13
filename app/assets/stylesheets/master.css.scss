@@ -43,6 +43,11 @@
   font-weight: bold;
 }
 
+.link a:hover {
+  text-decoration: none;
+}
+
+
 header {
   border-top: 9px solid #222222;
 }
@@ -96,6 +101,10 @@ h2 span {
 
 .space-top {
   margin-top: 30px;
+}
+
+.call-to-action a {
+  color: #f84342;
 }
 
 @media (max-width: 750px) {
